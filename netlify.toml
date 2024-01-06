@@ -1,2 +1,5 @@
 [build]
   environment = { CI = "false" }
+  from = "/*"
+  to = "/index.html"
+  status = 200
