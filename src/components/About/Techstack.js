@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { Next } from "react-bootstrap/esm/PageItem";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
@@ -9,6 +10,12 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiPhp,
+  DiMysql,
+  DiLaravel,
+  DiBootstrap,
+  DiHtml5,
+  DiCss3,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -16,20 +23,19 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiFlutter,
+  SiExpress,
+  SiJquery,
+  SiTypescript,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,13 +44,13 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -56,13 +62,31 @@ function Techstack() {
         <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJquery />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
       </Col>
     </Row>
   );
